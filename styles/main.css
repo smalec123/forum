@@ -1,0 +1,74 @@
+body {
+  background-color: #2d2d2d;
+}
+
+header .header_container {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3434fa), to(#c803ff));
+  background-image: linear-gradient(to bottom, #3434fa, #c803ff);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+header li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  margin-left: 2.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+header li:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+li1 {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: red;
+  display: flexbox;
+  padding: 0.7rem;
+}
+/*# sourceMappingURL=main.css.map */

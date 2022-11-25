@@ -1,0 +1,56 @@
+@import "zmienne";
+body {
+    background-color: $backgroud;
+    // color: white;
+    }
+    header{
+        .header_container{
+            max-width:  90rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;}
+
+            ul {
+                background-image: linear-gradient(to bottom, rgb(52, 52, 250), rgb(200, 3, 255));
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                list-style-type: none;
+                padding: 0.5rem;
+                margin: 0;
+            }
+
+            li {
+                // background-color: #fff;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                width: 50px;
+                margin-left: 2.5rem;
+                flex-direction: column;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    
+                    transition: 1s;
+                    transform: translateY(-50px);
+                }
+                
+            }
+    
+            }    
+    h1 {
+    font-size: 2rem;
+    text-align: center;
+    }
+    
+li1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: red;
+    display: flexbox;
+    padding: 0.7rem;
+}
+    
